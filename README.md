@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Sanjana R — 3D Interactive Portfolio
 
-# Run and deploy your AI Studio app
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Anuvid17/sanjana-3d-portfolio)
 
-This contains everything you need to run your app locally.
+Cinematic, dark 3D interactive portfolio featuring Three.js spatial workstation, GSAP animations, Tailwind CSS v4, and comprehensive project showcases.
 
-View your app in AI Studio: https://ai.studio/apps/0fdfa3ba-c28a-445d-a129-8d3203540e21
+## 🚀 One-Click Deploy to Render
 
-## Run Locally
+Click the button above or visit:
+👉 **[https://render.com/deploy?repo=https://github.com/Anuvid17/sanjana-3d-portfolio](https://render.com/deploy?repo=https://github.com/Anuvid17/sanjana-3d-portfolio)**
 
-**Prerequisites:**  Node.js
+## 💻 Local Development
 
+```bash
+# 1. Install dependencies
+npm install
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+# 2. Run local development server
+npm run dev
+
+# 3. Production build
+npm run build
+```
