@@ -8,6 +8,13 @@ import {
   CertificationItem,
 } from '../types/portfolio';
 
+import projectFashionverse from '../assets/images/project_fashionverse_1794051811086.jpg';
+import projectNutrilens from '../assets/images/project_nutrilens_1794051812139.jpg';
+import projectSurgicalVision from '../assets/images/project_surgical_vision_1794051811047.jpg';
+import exploreNeuralNetwork from '../assets/images/explore_neural_network_1794051828185.jpg';
+import exploreAutonomousAgent from '../assets/images/explore_autonomous_agent_1794051829723.jpg';
+import exploreHumanAi from '../assets/images/explore_human_ai_1794051828824.jpg';
+
 export const PERSONAL_INFO = {
   name: 'Sanjana R',
   initials: 'SR',
@@ -68,7 +75,7 @@ export const PROJECTS: ProjectItem[] = [
       'Integrated Google Gemini for generative styling insights, fashion nuance reasoning, and natural-language recommendations.',
       'Incorporated 3D virtual try-on visualization enabling realistic draping simulation and multi-angle wardrobe preview.',
     ],
-    image: '/src/assets/images/project_fashionverse_1794051811086.jpg',
+    image: projectFashionverse,
     colSpan: 'md:col-span-7',
     aspectRatio: 'aspect-[16/10]',
     githubUrl: 'https://github.com/saraswati-sanj',
@@ -86,7 +93,7 @@ export const PROJECTS: ProjectItem[] = [
       'Designed a high-performance Retrieval-Augmented Generation (RAG) pipeline using ChromaDB embeddings and Gemini for contextual dietary advice.',
       'Developed secure REST APIs with FastAPI, JWT authentication, and strict Pydantic schema validation.',
     ],
-    image: '/src/assets/images/project_nutrilens_1794051812139.jpg',
+    image: projectNutrilens,
     colSpan: 'md:col-span-5',
     aspectRatio: 'aspect-[16/10]',
     githubUrl: 'https://github.com/saraswati-sanj',
@@ -110,7 +117,7 @@ export const PROJECTS: ProjectItem[] = [
       { label: 'Precision', value: '92.43%' },
       { label: 'Recall', value: '93.93%' },
     ],
-    image: '/src/assets/images/project_surgical_vision_1794051811047.jpg',
+    image: projectSurgicalVision,
     colSpan: 'md:col-span-12',
     aspectRatio: 'aspect-[21/9]',
     githubUrl: 'https://github.com/saraswati-sanj',
@@ -183,7 +190,7 @@ export const EXPLORATIONS: ExplorationItem[] = [
     category: 'Foundational Models',
     description:
       'Investigating emergent reasoning, multi-turn reasoning traces, and synthetic prompt architectures.',
-    image: '/src/assets/images/explore_neural_network_1794051828185.jpg',
+    image: exploreNeuralNetwork,
     aspect: 'aspect-square',
     rotation: -2,
   },
@@ -193,7 +200,7 @@ export const EXPLORATIONS: ExplorationItem[] = [
     category: 'Deep Learning',
     description:
       'Visualizing high-dimensional tensor weights, self-attention maps, and deep residual activations.',
-    image: '/src/assets/images/project_fashionverse_1794051811086.jpg',
+    image: projectFashionverse,
     aspect: 'aspect-square',
     rotation: 2.5,
   },
@@ -203,7 +210,7 @@ export const EXPLORATIONS: ExplorationItem[] = [
     category: 'Spatial Perception',
     description:
       'Real-time edge detection, instance masking, and robotic spatial awareness in dynamic environments.',
-    image: '/src/assets/images/project_surgical_vision_1794051811047.jpg',
+    image: projectSurgicalVision,
     aspect: 'aspect-square',
     rotation: -1.5,
   },
@@ -213,7 +220,7 @@ export const EXPLORATIONS: ExplorationItem[] = [
     category: 'Autonomous Systems',
     description:
       'Designing tool-use chains, stateful memory buffers, and multi-agent coordination protocols.',
-    image: '/src/assets/images/explore_autonomous_agent_1794051829723.jpg',
+    image: exploreAutonomousAgent,
     aspect: 'aspect-square',
     rotation: 3,
   },
@@ -223,7 +230,7 @@ export const EXPLORATIONS: ExplorationItem[] = [
     category: 'Optimal Control',
     description:
       'Simulating reward landscapes, exploration strategies, and policy gradients in continuous action spaces.',
-    image: '/src/assets/images/project_nutrilens_1794051812139.jpg',
+    image: projectNutrilens,
     aspect: 'aspect-square',
     rotation: -2.8,
   },
@@ -233,7 +240,7 @@ export const EXPLORATIONS: ExplorationItem[] = [
     category: 'Cognitive Interfaces',
     description:
       'Exploring tactile visual interfaces where human intent fluidly directs intelligent agent behavior.',
-    image: '/src/assets/images/explore_human_ai_1794051828824.jpg',
+    image: exploreHumanAi,
     aspect: 'aspect-square',
     rotation: 1.8,
   },
