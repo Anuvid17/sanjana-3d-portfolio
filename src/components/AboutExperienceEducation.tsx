@@ -50,10 +50,10 @@ export default function AboutExperienceEducation({ onOpenPdfViewer }: AboutExper
                   <h3 className="text-lg font-display italic text-text-primary">
                     {PERSONAL_INFO.name}
                   </h3>
-                  <span className="text-[11px] text-sky-300 font-mono">MCA AI '27</span>
+                  <span className="text-[11px] text-sky-300 font-mono">MCA Gen-AI '27</span>
                 </div>
                 <div className="text-xs text-muted flex items-center justify-between">
-                  <span>AI/ML & Generative AI</span>
+                  <span>Generative AI</span>
                   <span className="flex items-center gap-1">
                     <MapPin className="w-3 h-3 text-sky-400" />
                     <span>Bengaluru, India</span>
@@ -87,7 +87,7 @@ export default function AboutExperienceEducation({ onOpenPdfViewer }: AboutExper
               <p>
                 I am currently pursuing a Master of Computer Applications specializing in{' '}
                 <span className="text-text-primary font-normal">
-                  Artificial Intelligence and Generative AI
+                  Generative AI
                 </span>{' '}
                 at Alliance University, Bengaluru. I am passionate about developing intelligent
                 applications using Machine Learning, Natural Language Processing, Large Language

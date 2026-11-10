@@ -368,7 +368,7 @@ export const EXPERIENCES: ExperienceItem[] = [
 export const EDUCATION_LIST: EducationItem[] = [
   {
     degree: 'Master of Computer Applications (MCA)',
-    specialization: 'Artificial Intelligence & Generative AI',
+    specialization: 'Generative AI',
     institution: 'Alliance University, Bengaluru',
     period: '2025 – 2027',
     highlights: [
